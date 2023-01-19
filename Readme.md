@@ -2,11 +2,12 @@
 
 ## Содержание:
 
-* [Технологии, используемые в данном проекте](https://github.com/SvetlanaVaskevich/qa_guru_diplom_api#%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D1%8B%D0%B5-%D0%B2-%D0%B4%D0%B0%D0%BD%D0%BD%D0%BE%D0%BC-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B5)
-* [Тест кейсы](https://github.com/SvetlanaVaskevich/qa_guru_diplom_api#%D1%82%D0%B5%D1%81%D1%82-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B)
-* [Сборка в Jenkins](https://github.com/SvetlanaVaskevich/qa_guru_diplom_api#%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-%D0%B2-jenkins)
-* [Информация о тестах в Allure report](https://github.com/SvetlanaVaskevich/qa_guru_diplom_api#%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%BE-%D1%82%D0%B5%D1%81%D1%82%D0%B0%D1%85-%D0%B2-allure-report)
-* [Интеграция с AllureTestOps](https://github.com/SvetlanaVaskevich/qa_guru_diplom_api#%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%81-alluretestops)
+* [Технологии, используемые в данном проекте](#technologist-технологии-в-данном-проекте)
+* [Тест кейсы](#bookmark_tabs-реализованные-проверки)
+* [Сборка в Jenkins](#-запуск-тестов-в-jenkins)
+* [Информация о тестах в Allure report](#-отчет-о-результатах-тестирования-в-Allure-report)
+* [Интеграция с AllureTestOps](#-интеграция-с-allure-testops)
+* [Уведомления в Telegram с использованием бота](#-уведомления-в-telegram-с-использованием-бота)
 
 ## Технологии, используемые в данном проекте
 
@@ -34,36 +35,51 @@
 
 
 
-## [Сборка в Jenkins](https://jenkins.autotests.cloud/job/C10-Svetlana_Vas_diplom_api/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg">[Сборка в Jenkins](https://jenkins.autotests.cloud/job/skan_diploma_api/)
 
-![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/Jenkins_API.png)
+Для запуска сборки необходимо нажать на кнопку <code><strong>*Собрать*</strong></code>.
 
-## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/C10-Svetlana_Vas_diplom_api/6/allure/)
+<p align="center">
+  <img src="images/screens/jenkinsapi.png" alt="jenkins" width="800">
+</p>
+
+## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/skan_diploma_api/3/allure)
 
 ### Главное окно
 
-![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureReport1.png)
+<p align="center">
+  <img src="images/screens/allureapi1.png" alt="allure" width="800">
+</p>
 
 ### Окно с тестовыми кейсами
 
-![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureReport2.png)
+<p align="center">
+  <img src="images/screens/allureapi2.png" alt="allure" width="800">
+</p>
 
 ### Окно с графиками
 
-![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureGraphs.png)
+<p align="center">
+  <img src="images/screens/allureapi3.png" alt="allure" width="800">
+</p>
 
-## Интеграция с [AllureTestOps](https://allure.autotests.cloud/project/1249/test-cases?treeId=0)
+## Интеграция с [AllureTestOps](https://allure.autotests.cloud/jobrun/17746)
 
-###Тест-кейсы с историей запусков
+###Тест-кейсы
 
-![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureTestCases.png)
+<p align="center">
+  <img src="images/screens/testOpsapi2.png" alt="testops" width="800">
+</p>
 
 ###Дашборд
 
-![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/AllureDashboards.png)
+<p align="center">
+  <img src="images/screens/testOpsapi1.png" alt="testops" width="800">
+</p>
 
 ## Уведомление в Telegram
 
 После завершения тестов отчет о прохождении приходит в Telegram с помощью заранее созданного бота
-
-![](https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom_api/main/images/screens/TelegrammAPI.png)
+<p align="center">
+  <img src="images/screens/telegramapi.png" alt="testops" width="600">
+</p>
